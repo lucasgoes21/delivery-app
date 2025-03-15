@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#94F6B379</color>
+    <color name="colorPrimaryDark">#A1000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackgroundLoadingHome">#D0C62828</color>
+    <color name="colorWhite">#C1FFFFFF</color>
+    <color name="colorBackgroundProgressBarLoading">#94E69957</color>
+    <color name="colorButtons">#602020</color>
+</resources>

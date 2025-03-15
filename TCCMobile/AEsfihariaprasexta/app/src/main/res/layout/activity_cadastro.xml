@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundLoadingHome"
+    tools:context=".Cadastro">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        />
+    <TextView
+        android:id="@+id/CadastroInsiraOsDados"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:text="Insira os Dados:"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/CadastroNome"
+        android:shadowColor="@color/colorButtons"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CadastroInsiraOsDados"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Seu Nome" />
+
+    <EditText
+        android:id="@+id/CadastroUsuario"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:inputType="text"
+        android:textColorHint="@color/colorWhite"
+        android:layout_below="@id/CadastroNome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="center"
+        android:hint="Usuário para fazer Login" />
+
+    <EditText
+        android:id="@+id/CadastroSenha"
+        android:layout_width="300dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CadastroUsuario"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="center"
+        android:hint="Senha para fazer Login" />
+
+    <EditText
+        android:id="@+id/CadastroNumeroCelular"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CadastroSenha"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:inputType="number"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="center"
+        android:hint="Número do Celular" />
+  <Button
+      android:layout_marginTop="50dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="  Efetuar Cadastro  "
+      android:textColor="@color/colorWhite"
+      android:fontFamily="@font/comfortaa_light"
+      android:layout_below="@id/CadastroNumeroCelular"
+      android:layout_centerHorizontal="true"
+      android:background="@color/colorButtons"/>
+</RelativeLayout>

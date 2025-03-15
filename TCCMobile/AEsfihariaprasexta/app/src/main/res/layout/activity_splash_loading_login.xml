@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashLoadingLogin">
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/colorBackgroundLoadingHome"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:elegantTextHeight="true"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="A Esfiharia"
+            android:textAllCaps="false"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorButtons"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bem - Vindo"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:fontFamily="@font/comfortaa_light"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorButtons"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"/>
+        <Button
+            android:id="@+id/buttonEntrar"
+            android:layout_marginTop="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorButtons"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:backgroundTint="@color/colorButtons"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
